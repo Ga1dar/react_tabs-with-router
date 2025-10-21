@@ -4,7 +4,7 @@ import './App.scss';
 import { Routes, Route, Link, useLocation, Navigate } from 'react-router-dom';
 import { HomePage } from './components/HomePage';
 import { TabsPage } from './components/TabsPage';
-import { PageNotFound } from './components/PageNotFaund';
+import { PageNotFound } from './components/PageNotFound';
 
 export const App = () => {
   const location = useLocation();
